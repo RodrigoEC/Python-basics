@@ -8,7 +8,7 @@ restrictive by type, thus we can have a list with strings and integers i.g.
 it's usually a bad habit to do that.
 
 __Example:__ List of game names
-```
+```python
 games = ["Don't starve", "Terraria", "The last of us", "Battle Block Theater"]
 ```
 > The example above is going to be used in the following example as a base to the operation.
@@ -85,6 +85,53 @@ games.remove("The las of us")
 
 output:
 ["Don't starve", "Terraria", "Battle Block Theater"]
+```
+
+
+---
+### Max()
+
+Receives a list of values and returns the highest value. 
+
+> When comparing strings this method uses the letter's order in the alphabet
+as metric to compare string. For example, "a" is lower than "z".
+
+```Python
+
+max(named_list)
+
+outputs:
+"The last of us"
+```
+
+---
+### Min()
+Receives a list of values and returns the lowest value. 
+
+> When comparing strings this method uses the letter's order in the alphabet
+as metric to compare string. For example, "a" is lower than "z".
+
+```Python
+
+min(named_list)
+
+outputs:
+"Battle block theater"
+```
+
+---
+### Sorted()
+Receives a list of values and returns a ordered list. 
+
+> When comparing strings this method uses the letter's order in the alphabet
+as metric to compare string.
+
+```Python
+
+sorted(named_list)
+
+outputs:
+["Battle block theater", "Don't starve", "Terraria", "The last of us"]
 ```
 # Tuples
 
