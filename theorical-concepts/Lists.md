@@ -133,6 +133,8 @@ sorted(named_list)
 outputs:
 ["Battle block theater", "Don't starve", "Terraria", "The last of us"]
 ```
+
+
 # Tuples
 
 Python tuples are like lists, but can't be manipulated, which means that
