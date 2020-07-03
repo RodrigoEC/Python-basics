@@ -18,6 +18,7 @@ games = ["Don't starve", "Terraria", "The last of us", "Battle Block Theater"]
 In python there's a ton of things that we can do with lists, here I'm gonna
 be covering a feel of them.
 
+---
 ### Slice
 
 Using slice we can create a "sublist" of a bigger list using the following
@@ -47,6 +48,7 @@ Output:
 > As we can see the second index (THe las of us) was not shown in the
 output, that is because the endIndex in the slice operation is not considered.
 
+---
 ### Append Method
 
 This method allows us to add a new item to the end of a list using the 
@@ -66,7 +68,7 @@ output:
 
 ["Don't starve", "Terraria", "The last of us", "Battle Block Theater", "Enter the gungeon"]
 ```
-
+---
 ### Remove Method
 
 This method allows us to remove a item of a list by it's value
@@ -84,4 +86,12 @@ games.remove("The las of us")
 output:
 ["Don't starve", "Terraria", "Battle Block Theater"]
 ```
+# Tuples
 
+Python tuples are like lists, but can't be manipulated, which means that
+the method append nor the method remove here. In python tuples are created
+following this structure:
+
+```Python
+tuple_name = (item1, item2, item3)
+```
