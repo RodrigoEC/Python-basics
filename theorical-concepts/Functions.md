@@ -23,8 +23,40 @@ literally prints what the len() function returned.
 We can create our own function using this structure:
 
 ```
-def named_of_the_function():
+def name_of_the_function(parameters):
     body
 ```
+where:
+__def:__ Key word to start the creation of the function;
+__parameters:__ Are all the things that the function needs to receive to 
+be able to work properly, like the list in the function `len()` i.g;
+__body:__ Is all the block of code that makes the function work, it can have
+the statement `return`, which means that the functon returns something, or not.
 
 > :warning: warning: Be careful with the [`identation`](../README.md#identation).
+
+
+__Example 01:__ Creating a function that returns the number of characters in a word
+```Python
+def count_characters(word):
+    if type(word) == 'str':
+        return len(word)
+
+count_characters('caveiras')
+
+output:
+8
+```
+
+__Example 02:__ Creating a function that doesn't returns anything, just
+prints something
+
+```Python
+def we_are_all_calarrara(name):
+    print(f"{name} calarrara the rattlesnake from Piauí")
+
+we_are_all_calarrara("jorgina")
+
+output:
+Jorgina Calarrara the rattlesnake from Piauí
+```
