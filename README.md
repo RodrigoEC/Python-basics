@@ -20,7 +20,8 @@ cotent!
 - [Lists](./theorical-concepts/Lists.md)
 - [Dictionary](./theorical-concepts/Dictionary.md)
 - [Functions](./theorical-concepts/Functions.md)
-
+- [Conditional statements](./theorical-concepts/Conditional_statements.md)
+- [Regular Expressions](./theorical-concepts/Regular_expressions.md)
 
 ## About Python
 
