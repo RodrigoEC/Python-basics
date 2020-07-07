@@ -4,6 +4,9 @@ I truly believe that it's only possible to be really good at something complex i
 
 Thus the goal of this repository is for me to register all of my progress "relearning" python from basic to advanced.
 
+By the way I'm gonna upload all the projects that I create during the courses
+that I took.
+
 <div>
     <i>Wish me luck</i><br>
     <img src="./images/fingers-crossed.gif">
@@ -13,6 +16,8 @@ Thus the goal of this repository is for me to register all of my progress "relea
 file so the README.md just contains some initial content and a bunch of links
 to another files in this repository. Said that I hope you enjoy reading the following
 cotent!
+## Projects
+
 
 ## Index
 - [About Python](#about-python)
