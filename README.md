@@ -16,9 +16,10 @@ cotent!
 
 ## Index
 - [About Python](#about-python)
+- [Inputs](#inputs)
 - [Lists](./theorical-concepts/Lists.md)
 - [Dictionary](./theorical-concepts/Dictionary.md)
-
+- [Functions](./theorical-concepts/Functions.md)
 
 
 ## About Python
@@ -69,6 +70,7 @@ case didn't go through the "if" statement and wasn't filtered, something
 that didn't happened in the first, and correct, case.  
 
 :warning: Be careful with identation in python!
+
 ---
 ### Dynamically typed language
 
@@ -80,4 +82,20 @@ __Ex:__
     my_name_is_julia = 1423
 ```
 
+---
+### Inputs
 
+If we want the user to type some information we can use the `input()`
+function that allows us to ask the user to type something.
+
+__Example:__ We want the user to type his/her name
+```Python
+name = input('Hi! please enter you name')
+print(f"Hi {name}, how's your day?")
+# The terminal will be freezed until the user types something, when something is entered:
+
+output:
+Hi! please enter your name
+# user types: Rodrigo
+"Hi Rodrigo, how's your day?"
+```
